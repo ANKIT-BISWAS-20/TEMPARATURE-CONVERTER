@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#body{
+    background-color: wheat;
+}
+.nav{
+    background-color: brown;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color: bisque;
+    font-size: 30px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+#box1{
+    background-color: beige;
+    border: 3px solid brown;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 70px;
+    color: brown;
+
+}
+#form{
+    padding-top: 40px;
+}
+#inp{
+
+    padding-top: 25px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+
+}
+.ib{
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    border: 2px solid brown;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: antiquewhite;
+    cursor: pointer;
+
+}
+#btn{
+    margin-top: 60px;
+    width: 130px;
+    height: 40px;
+    transition: 0.5s;
+    background-color: brown;
+    color: bisque;
+    font-size: 22px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+
+#btn:hover{
+    margin-top: 60px;
+    width: 140px;
+    transition: 0.5s;
+    height: 50px;
+    color: brown;
+    background-color: antiquewhite;
+    font-size: 22px;
+    border-radius: 15px;
+    border: 2px solid brown;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+#footer{
+    width: 100%;
+    background-color: brown;
+    text-align: center;
+    padding-top: 50px;
+    color: antiquewhite;
+    height: 143px;
+}
+#logos{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn2{
+    margin-right: 20px;
+    height: 40px;
+    width: 150px;
+    background-color: antiquewhite;
+    border: 2px solid brown;
+    color:brown;
+    border-radius: 5px;
+}
+

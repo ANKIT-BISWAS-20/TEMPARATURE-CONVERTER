@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teparature Coverter</title> 
+    <link rel="stylesheet" href="style.css">
+<body id="body">
+    <nav class="nav">
+        <div>
+            <i class="fa-solid fa-temperature-three-quarters fa-fade fa-xl" style="color: #ffe4c4;" style="margin-top: 10px;"></i>        
+        </div>
+        <p>Temparature Converter</p>
+        <button id="btn2"  onclick="gt(6)">BISWAS INDUSTRIES</button>
+    </nav>
+    <div id="box1">
+        <h1>Calculate Temparature Here</h1>
+        <div id="form">
+            <div id="inp">
+                <label>Celsius</label>
+                <input type="number" class="ib" id="ct" value="0">
+            </div>
+            <div id="inp">
+                <label>Fahrenheit</label>
+                <input type="number" class="ib" id="ft" value="32">
+            </div>
+            <div id="inp">
+                <label>Kelvin</label>
+                <input type="number" class="ib" id="kt" value="273">
+            </div>
+            <button id="btn" onclick="reset()">Reset</button>           
+        </div>
+    </div>
+    <div id="footer">
+        <h2 id="h2">Follow Me</h2>
+        <div id="logos">
+            <i class="fa-brands fa-facebook fa-2xl" style="color: #ffe4c4;" onclick="gt(1)"></i>
+            <i class="fa-brands fa-instagram fa-2xl" style="color: #ffe4c4;" onclick="gt(2)"></i>
+            <i class="fa-brands fa-youtube fa-2xl" style="color: #ffe4c4;" onclick="gt(3)"></i>
+            <i class="fa-brands fa-linkedin fa-2xl" style="color: #ffe4c4;" onclick="gt(4)"></i>
+            <i class="fa-brands fa-github fa-2xl" style="color: #ffe4c4;" onclick="gt(5)"></i>
+            
+        </div>
+        <div style="background-color: rgb(107, 19, 19); height:20px;">
+            <p style="margin-top: 45px;">Copyright © 2023 All Rights Reserved</p>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/ae4da4ffc0.js" crossorigin="anonymous"></script>  
+</head>
+</body>
+</html>
